@@ -21,7 +21,7 @@
   </header>
   <main class="index">
     <section class="bg_index_presentation pt-5">
-      <div class="container-fluid">
+      <div class="container">
         <div id="carouselExampleIndicators" class="carousel slide ">
           <div class="carousel-indicators">
             <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"

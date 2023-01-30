@@ -17,48 +17,57 @@
       </ul>
     </div>
   </nav>
-  <nav class="navbar navbar-expand-md bg-transparent main-nav"> 
-    <a class="navbar-brand" href="index.php" title="page d'accueil">
-        <img src="img\logo.png" class="img-fluid" alt="american car" >
-      </a>
+  <nav class="navbar navbar-expand-md bg-transparent main-nav pt-md-5">
     <div class="container-fluid">
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-       
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-          <li class="nav-item pe-5">
-            <a class="nav-link active " aria-current="page" href="index.php"
-              title="page d'accueil">Accueil</a>
-          </li>
-          <li class="nav-item dropdown pe-5">
-            <a class="nav-link dropdown-toggle " href="#" role="button" data-bs-toggle="dropdown"
-              aria-expanded="false">
-              Parc
+      <div class="row w-100 align-items-center">
+        <div class="col-6 col-md-2 ">
+          <a class="navbar-brand" href="index.php" title="page d'accueil">
+              <img src="img\logo.png" class="img-fluid" alt="american car">
             </a>
-            <ul class="dropdown-menu">
-              <li><a class="dropdown-item " href="parc_collection.php" title="voiture de collection">Voitures de
-                  collection</a></li>
-              <li><a class="dropdown-item " href="parc_actuel.php" title="voiture actuelle">Voitures actuelles</a></li>
-            </ul>
-          </li>
-          <li class="nav-item pe-5">
-            <a class="nav-link " href="liste_actu.php" title="les actualités">Actualités</a>
-          </li>
-
-          <li class="nav-item pe-5">
-            <a class="nav-link" href="contact.php" title="page de contact">Contact</a>
-          </li>
-        </ul>
+        </div>
+        <div class="col-6 text-end col-md-4 offset-md-1">
+          <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item pe-5">
+                  <a class="nav-link active" aria-current="page" href="index.php"
+                    title="page d'accueil">Accueil</a>
+                </li>
+                <li class="nav-item dropdown pe-5">
+                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                    aria-expanded="false">
+                    Parc
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="parc_collection.php" title="voiture de collection">Voitures de
+                        collection</a></li>
+                    <li><a class="dropdown-item" href="parc_actuel.php" title="voiture actuelle">Voitures actuelles</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item pe-5">
+                  <a class="nav-link" href="liste_actu.php" title="les actualités">Actualités</a>
+                </li>
+                <li class="nav-item pe-5">
+                  <a class="nav-link" href="contact.php" title="page de contact">Contact</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-2 offset-md-3">
+          <form class="d-flex" role="search">
+            <input class="form-control me-2 bg-transparent" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn" type="submit"><i class="fa fa-search"></i></button>
+          </form>
+        </div>
       </div>
-      <form class="d-flex " role="search">
-        <input class="form-control me-2 bg-transparent " type="search" placeholder="Search " aria-label="Search">
-        <button class="btn" type="submit"><i class="fa fa-search"></i></button>
-      </form>
     </div>
   </nav>
+  
   
   <div class="d-none d-md-block baseline ">
     <div>Conduisez en liberté</div>

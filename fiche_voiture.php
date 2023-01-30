@@ -15,7 +15,7 @@
         <?php
           require_once("header.html")
         ?>
-          <nav aria-label="breadcrumb">
+          <nav class="pt-4 pt-md-0" aria-label="breadcrumb">
             <ol class="breadcrumb">
                 <li class="breadcrumb-item"><a href="index.php">Accueil</a></li>
                 <li class="breadcrumb-item"><a href="parc_collection.php">Voitures de collection</a></li>
