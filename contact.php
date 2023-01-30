@@ -89,6 +89,3 @@
 <script src="scripts/scripts.js"></script>
 
 </html>
-Adresse
-Google map
-Formulaire de contact avec nom, prénom, mail, message

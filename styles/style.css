@@ -297,15 +297,84 @@ header .btn{
 }
 
 /*------------------------page index------------------- */
-
 .bg_header_index {
     background:
         radial-gradient(rgba(197, 195, 195, 0.514), rgba(1, 3, 13, 0.979)),
-        url("../img/bg_header.jpg"), no-repeat;
-    background-size: cover;
-    background-position: center;
-    height: 48.177vw;
+        url("../img/bg_header.jpg");   
 }
+
+.bg_header_parc_actuel {
+    background:
+        radial-gradient(rgba(197, 195, 195, 0.514), rgba(1, 3, 13, 0.979)),
+        url("../img/bg_header_actu.jpg");   
+}
+.bg_header_parc_collection {
+    background:
+        radial-gradient(rgba(197, 195, 195, 0.514), rgba(1, 3, 13, 0.979)),
+        url("../img/bg_header2.jpg");
+   
+}
+.bg_header_liste_actu {
+    background:
+        radial-gradient(rgba(197, 195, 195, 0.514), rgba(1, 3, 13, 0.979)),
+        url("../img/bg_actu.jpg");
+    
+}
+.bg_header_fiche_actu {
+    background:
+        radial-gradient(rgba(197, 195, 195, 0.514), rgba(1, 3, 13, 0.979)),
+        url("../img/actualité/tesla.jpg");
+   
+}
+.bg_header_fiche_voiture {
+    background:
+        radial-gradient(rgba(197, 195, 195, 0.514), rgba(1, 3, 13, 0.979)),
+        url("../img/bg_fiche_voiture.jpg");
+    
+}
+.bg_header_contact {
+    background:
+        radial-gradient(rgba(197, 195, 195, 0.514), rgba(1, 3, 13, 0.979)),
+        url("../img/bg_contact.jpg");
+   
+}
+.bg_header_index,
+    .bg_header_liste_actu,
+    .bg_header_parc_actuel,
+    .bg_header_parc_collection,
+    .bg_header_fiche_actu,
+    .bg_header_fiche_voiture,
+    .bg_header_contact{
+        background-size: cover;
+    background-position: center;
+    background-repeat:no-repeat;
+    height: 380px;
+    }
+
+
+@media screen and (min-width:768px){
+    .bg_header_index,
+    .bg_header_liste_actu,
+    .bg_header_parc_actuel,
+    .bg_header_parc_collection,
+    .bg_header_fiche_actu,
+    .bg_header_fiche_voiture,
+    .bg_header_contact  {
+        height: 500px;
+    }
+}
+@media screen and (min-width:992px){
+    .bg_header_index,
+    .bg_header_liste_actu,
+    .bg_header_parc_actuel,
+    .bg_header_parc_collection,
+    .bg_header_fiche_actu,
+    .bg_header_fiche_voiture,
+    .bg_header_contact {
+    height: 740px;
+}
+}
+
 .index img.card-img-top {
     height: 10rem;
     object-fit: cover;
@@ -367,16 +436,6 @@ header .btn{
 
 /* ----------------------page parc actuel ------------------------*/
 
-
-.bg_header_parc_actuel {
-    background:
-        radial-gradient(rgba(197, 195, 195, 0.514), rgba(1, 3, 13, 0.979)),
-        url("../img/bg_header_actu.jpg"), no-repeat;
-    background-size: cover;
-    background-position: center;
-    height: 48.177vw;
-}
-
 .p_collection img,
 .parc_actuel img {
     height: 15rem;
@@ -422,24 +481,10 @@ header .btn{
 }
 
 /* ------------------page parc collection-------------------- */
-.bg_header_parc_collection {
-    background:
-        radial-gradient(rgba(197, 195, 195, 0.514), rgba(1, 3, 13, 0.979)),
-        url("../img/bg_header2.jpg"), no-repeat;
-    background-size: cover;
-    background-position: center;
-    height: 48.177vw;
-}
+
 
 /* ---------------------page liste d'actu ------------------*/
-.bg_header_liste_actu {
-    background:
-        radial-gradient(rgba(197, 195, 195, 0.514), rgba(1, 3, 13, 0.979)),
-        url("../img/bg_actu.jpg"), no-repeat;
-    background-size: cover;
-    background-position: center;
-    height: 48.177vw;
-}
+
 .img_actu {
     background: linear-gradient(to bottom right, #00031abf, rgba(137, 125, 14, 0.284));
     filter: grayscale(55%);
@@ -468,39 +513,18 @@ header .btn{
 }
 
 /* _____________________page fiche actu _________________________*/
-.bg_header_fiche_actu {
-    background:
-        radial-gradient(rgba(197, 195, 195, 0.514), rgba(1, 3, 13, 0.979)),
-        url("../img/actualité/tesla.jpg"), no-repeat;
-    background-size:cover;
-    background-position: center;
-    height: 48.177vw;
-}
+
 
 
 /* ___________________page fiche voiture ___________________*/
-.bg_header_fiche_voiture {
-    background:
-        radial-gradient(rgba(197, 195, 195, 0.514), rgba(1, 3, 13, 0.979)),
-        url("../img/bg_fiche_voiture.jpg"), no-repeat;
-    background-size: cover;
-    background-position: center;
-    height: 48.177vw;
-}
+
 .fiche_voiture div.carousel-item img{
     height:20rem;
     object-fit: cover;
 }
 
 /* ____________________page contact ______________________*/
-.bg_header_contact {
-    background:
-        radial-gradient(rgba(197, 195, 195, 0.514), rgba(1, 3, 13, 0.979)),
-        url("../img/bg_contact.jpg"), no-repeat;
-    background-size: cover;
-    background-position: center;
-    height: 48.177vw;
-}
+
 
 .presentation {
     color: #90939C;

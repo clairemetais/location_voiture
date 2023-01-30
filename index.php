@@ -13,20 +13,15 @@
 
 <body>
   <header>
-    <div class="bg_header_index">
+    <div class="bg_header_index ">
       <?php
       require_once("header.html")
-       ?>
-      <nav aria-label="breadcrumb">
-        <ol class="breadcrumb">
-          <li class="breadcrumb-item active" aria-current="page">Home</li>
-        </ol>
-      </nav>
-    </div>  
+      ?>
+    </div> 
   </header>
   <main class="index">
     <section class="bg_index_presentation pt-5">
-      <div class="container">
+      <div class="container-fluid">
         <div id="carouselExampleIndicators" class="carousel slide ">
           <div class="carousel-indicators">
             <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
@@ -95,7 +90,7 @@
         </div>
         <div class="row pt-3 text-md-start">
           <div class="p-2 g-col-12 col-md-4 d-flex justify-content-center">
-            <div class="card border-0 rounded-1 h-100" style="width:25rem">
+            <div class="card border-0 rounded-1 h-100" style="max-width:25rem">
               <img src="img\actualité\noel_moyen.jpg" class="card-img-top rounded-top-1" alt="boule de noël">
               <div class="card-body ps-0">
                 <h5 class="card-title">Solde de Noël</h5>
@@ -106,7 +101,7 @@
             </div>
           </div>
           <div class="p-2 g-col-12 col-md-4 d-flex justify-content-center">
-            <div class="card border-0 rounded-1 h-100" style="width:25rem">
+            <div class="card border-0 rounded-1 h-100" style="max-width:25rem">
               <img src="img\actualité\avion_petit.jpg" class="card-img-top rounded-top-1" alt="avion American airlines">
               <div class="card-body ps-0">
                 <h5 class="card-title">Billet d'avion offert</h5>
@@ -117,7 +112,7 @@
             </div>
           </div>
           <div class="p-2 g-col-12 col-md-4 d-flex justify-content-center">
-            <div class="card border-0 rounded-1 h-100" style="width:25rem">
+            <div class="card border-0 rounded-1 h-100" style="max-width:25rem">
               <img src="img\actualité\essence_moyen.jpg" class="card-img-top rounded-top-1" alt="poignet d'essence">
               <div class="card-body ps-0">
                 <h5 class="card-title">Diminution des tarifs</h5>
